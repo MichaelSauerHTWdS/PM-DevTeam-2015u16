@@ -1,7 +1,7 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Gerüst für ein kleines Java-Menue um mit Git VCS zu lernen
+ * Michael Sauer, 22.01.2016
+ * 
  */
 import java.util.Scanner;
 /**
