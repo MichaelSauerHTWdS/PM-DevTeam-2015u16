@@ -27,6 +27,9 @@ public class menue{
                         	break;
                         	case 2:
               //wer da sonst noch so wäre ...
+				break;
+				case 3:
+					System.out.println("Marvin Zeimet");
                         	break;
                         	default:
                                 	System.out.println("Fehler: Kenne ich nicht!");
