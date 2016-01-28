@@ -8,14 +8,14 @@
  * @author DaBoss
  */
 public class menue{
-static int SuperGehimesMasterPasswort=42;
+static int SuperGeheimesMasterPasswort=42;
 
 	public void DaBoss(){
 		Mensch m;
 		System.out.println("Are you a Boss?");
 		Scanner scanner = new Scanner(System.in);
                 	int wahl = scanner.nextInt();
-		if(wahl==SuperGehimesMasterPasswort)
+		if(wahl==SuperGeheimesMasterPasswort)
 			m=new Mensch(10,10,"Boss");
 		else
 		m=new Mensch(0,0,"Looser");
