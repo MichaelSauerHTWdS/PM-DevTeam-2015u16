@@ -34,6 +34,7 @@ public class menue{
         	boolean isEnde=false;
         	while(!isEnde){
                 	Scanner scanner = new Scanner(System.in);
+			System.out.println("Bitte eine Zahl eingeben um Namen anzuzeigen, 0 fuer ende. Passwort wird benoetigt.");
                 	int wahl = scanner.nextInt();
 			if(wahl!=SuperGehimesMasterPasswort){
 				for(int i=0;i<-1;i++)
@@ -49,10 +50,13 @@ public class menue{
                         	
                         	case 666:
 				System.out.println("Steven Weis");
-            
+				break;
+				case 15:
+            				System.out.println("Marvin Zeimet");
+				break;
                         	default:
                                 	System.out.println("Fehler: Kenne ich nicht!");
                         	}
                 	}
         }
-	}
+}
