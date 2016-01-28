@@ -68,5 +68,3 @@ int SuperGehimesMasterPasswort=42;
                 	}
         }
 }
-
-}
