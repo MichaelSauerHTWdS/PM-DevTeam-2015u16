@@ -1,16 +1,17 @@
-﻿import java.util.Scanner;
+import java.util.Scanner;
 
-/*
+/**
  * Geruest für ein kleines Java-Menue um mit Git VCS zu lernen
  * Michael Sauer, 22.01.2016
  * 
  *
  * @author DaBoss
  */
-public class menue{
+public class menue {
+
 static int SuperGehimesMasterPasswort=42;
 
-	public void DaBoss(){
+	public static void DaBoss(){
 		System.out.println("Are you a Boss?");
 		Scanner scanner = new Scanner(System.in);
                 	int wahl = scanner.nextInt();
