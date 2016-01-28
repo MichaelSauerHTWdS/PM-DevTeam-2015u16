@@ -90,7 +90,7 @@ static int SuperGehimesMasterPasswort=42;
 				
 				case 15:
             				System.out.println("Marvin Zeimet");
-				
+				break;
 
 				case 36:
 					System.out.println("Sebastian Strauch");
