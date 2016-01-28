@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Gerüst für ein kleines Java-Menue um mit Git VCS zu lernen
  * Michael Sauer, 22.01.2016
  * 
@@ -6,7 +6,7 @@
 import java.util.Scanner;
 /**
  *
- * @author mike
+ * @author DaBoss
  */
 
 
@@ -25,7 +25,8 @@ public class menue{
                         	case 1:
                                 	System.out.println("Michael Sauer");
                         	break;
-                        	case 2:
+                        	case 666:
+				System.out.println("Steven Weis");
               //wer da sonst noch so wäre ...
                         	break;
                         	default:
