@@ -26,6 +26,11 @@ static int SuperGehimesMasterPasswort=42;
 
 
         public static void main(String[] args) {
+<<<<<<< Updated upstream
+=======
+			Store store = new Store();
+			store.writeFile("hrhr", "mwahaha");
+>>>>>>> Stashed changes
         	final int PROGRAMMENDE=0;
         	boolean isEnde=false;
         	while(!isEnde){
@@ -60,6 +65,14 @@ static int SuperGehimesMasterPasswort=42;
                         	case 2:
                         			System.out.println("Mike Mann");
                         	break;
+                        	
+                        	case 3
+					for (int i=0; i < 5;i++)
+					{
+						"Hallo Welt Nr" + i ;
+					}
+				break;
+				
                         	case 4:
 					System.out.println("Jan Dillenkofer");
                         	break;
@@ -79,6 +92,7 @@ static int SuperGehimesMasterPasswort=42;
 
 				case 36:
 					System.out.println("Sebastian Strauch");
+				break;
 				
 				case 1234:
 					System.out.println("Dyu Vu");
