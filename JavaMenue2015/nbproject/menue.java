@@ -8,7 +8,8 @@
  * @author DaBoss
  */
 public class menue{
-static int SuperGehimesMasterPasswort=42;
+	
+	private static int superGehimesMasterPasswort=42;
 
 	public void DaBoss(){
 		System.out.println("Are you a Boss?");
@@ -20,6 +21,15 @@ static int SuperGehimesMasterPasswort=42;
 		System.out.println("No you looser");
 }
 
+	public void nichtDaBoss(
+	
+		int notTheBossCounter = 0; 
+		System.out.println("You are not a boss!!!");
+		while(notTheBossCounter == superGehimesMasterPasswort){
+			System.out.println("Achtung, der Boss knackt das super geheime Passwort.");
+			notTheBossCounter += notTheBossCounter;
+		}	
+	}
 
 
 
