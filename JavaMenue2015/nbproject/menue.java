@@ -68,7 +68,7 @@ static int SuperGeheimesMasterPasswort=42;
                         			System.out.println("Mike Mann");
                         	break;
                         	
-                        	case 3
+                        	case 3:
 					for (int i=0; i < 5;i++)
 					{
 						System.out.println("Hallo Welt Nr" + i) ;
