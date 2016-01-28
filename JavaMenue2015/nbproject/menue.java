@@ -11,13 +11,16 @@ public class menue{
 static int SuperGehimesMasterPasswort=42;
 
 	public void DaBoss(){
+		Mensch m;
 		System.out.println("Are you a Boss?");
 		Scanner scanner = new Scanner(System.in);
                 	int wahl = scanner.nextInt();
 		if(wahl==SuperGehimesMasterPasswort)
-			System.out.println("Jo, Boss");
+			m=new Mensch(10,10,"Boss");
 		else
-		System.out.println("No you looser");
+		m=new Mensch(0,0,"Looser");
+
+		System.out.println(m);
 }
 
 
@@ -68,7 +71,7 @@ static int SuperGehimesMasterPasswort=42;
                         	case 3
 					for (int i=0; i < 5;i++)
 					{
-						"Hallo Welt Nr" + i ;
+						System.out.println("Hallo Welt Nr" + i) ;
 					}
 				break;
 				
