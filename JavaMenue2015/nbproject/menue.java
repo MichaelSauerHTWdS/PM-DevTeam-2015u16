@@ -1,6 +1,6 @@
-﻿import java.util.Scanner;
+import java.util.Scanner;
 
-/*
+/**
  * Geruest für ein kleines Java-Menue um mit Git VCS zu lernen
  * Michael Sauer, 22.01.2016
  * 
@@ -10,15 +10,9 @@
 public class menue{
 
 	
-	private static int superGehimesMasterPasswort=42;
-
-static int SuperGeheimesMasterPasswort=42;
-
-
 static int SuperGehimesMasterPasswort=42;
 
-
-	public void DaBoss(){
+	public static void DaBoss(){
 		Mensch m;
 		System.out.println("Are you a Boss?");
 		Scanner scanner = new Scanner(System.in);
@@ -47,15 +41,6 @@ static int SuperGehimesMasterPasswort=42;
 
         public static void main(String[] args) {
 
-<<<<<<< HEAD
-
-			Store store = new Store();
-			store.writeFile("hrhr", "mwahaha");
-
-=======
-			Store store = new Store();
-			store.writeFile("hrhr", "mwahaha");
->>>>>>> 10f262d7ed15167777aa8ce9205faac05af5c4be
         	final int PROGRAMMENDE=0;
         	boolean isEnde=false;
         	while(!isEnde){
@@ -91,17 +76,16 @@ static int SuperGehimesMasterPasswort=42;
                         			System.out.println("Mike Mann");
                         	break;
                         	
-                        	case 3
+                        	case 3:
 					for (int i=0; i < 5;i++)
 					{
-						"Hallo Welt Nr" + i ;
+						System.out.println("Hallo Welt Nr" + i );
 					}
 				break;
 				
                         	case 4:
 					System.out.println("Jan Dillenkofer");
                         	break;
-
                         	case 666:
 				System.out.println("Steven Weis");
 				break;
@@ -110,11 +94,11 @@ static int SuperGehimesMasterPasswort=42;
 				System.out.println("I´m not a rapper, i´m a singer with a flow");
 				isEnde=true;
            
-				
+				break;
 				case 15:
             				System.out.println("Marvin Zeimet");
 				
-
+				break;
 				case 36:
 					System.out.println("Sebastian Strauch");
 				break;
@@ -126,7 +110,9 @@ static int SuperGehimesMasterPasswort=42;
 				case 2:
 					System.out.println("Alexander Huber");
 
-
+				break;
+				case 1722: System.out.println("ZoXlike");
+				break;
                         	default:
                                 	System.out.println("Fehler: Kenne ich nicht!");
                         	}
