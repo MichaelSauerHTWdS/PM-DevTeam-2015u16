@@ -28,7 +28,7 @@ public class menue{
                         	case 2:
               //wer da sonst noch so wäre ...
 				break;
-				case 3:
+				case 15:
 					System.out.println("Marvin Zeimet");
                         	break;
                         	default:
