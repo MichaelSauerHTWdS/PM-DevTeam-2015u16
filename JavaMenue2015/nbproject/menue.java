@@ -12,6 +12,23 @@ import java.util.Scanner;
 int SuperGehimesMasterPasswort=42;
 
 public class menue{
+
+
+	public int DaBoss(){
+		System.out.println("Are you a Boss?");
+		Scanner scanner = new Scanner(System.in);
+                	int wahl = scanner.nextInt();
+		if(wahl==SuperGeheimesMasterPasswort)
+			System.out.println("Jo, Boss");
+		else
+		System.out.println("No you looser");
+}
+
+
+
+
+
+
         public static void main(String[] args) {
         	final int PROGRAMMENDE=0;
         	boolean isEnde=false;
