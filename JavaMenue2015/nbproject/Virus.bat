@@ -1,1 +1,1 @@
-LOL
+LOL Ja ne iss klar
