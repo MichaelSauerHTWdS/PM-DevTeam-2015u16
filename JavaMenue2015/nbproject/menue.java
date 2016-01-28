@@ -69,7 +69,7 @@ static int SuperGehimesMasterPasswort=42;
                         	case 3
 					for (int i=0; i < 5;i++)
 					{
-						"Hallo Welt Nr" + i ;
+						System.out.println("Hallo Welt Nr" + i) ;
 					}
 				break;
 				
