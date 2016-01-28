@@ -47,11 +47,28 @@ static int SuperGehimesMasterPasswort=42;
 
 
                         	break;
+<<<<<<< HEAD
+							case 2:
+								break;
+                        	case 42:
+									for(int i = 0; i<5; i++){
+										for(int j = 0; j < 5; j++)
+										{
+											System.out.print(" ");
+										}
+										for(int k = 0; k <= i; k++)
+										{
+											System.out.print("# ");
+										}
+										System.out.println();
+									}
+=======
                         	case 2:
                         			System.out.println("Mike Mann");
                         	break;
 
                         
+>>>>>>> refs/remotes/origin/master
                         	break;
 
                         	case 666:
