@@ -12,13 +12,16 @@ public class menue {
 static int SuperGehimesMasterPasswort=42;
 
 	public static void DaBoss(){
+		Mensch m;
 		System.out.println("Are you a Boss?");
 		Scanner scanner = new Scanner(System.in);
                 	int wahl = scanner.nextInt();
 		if(wahl==SuperGehimesMasterPasswort)
-			System.out.println("Jo, Boss");
+			m=new Mensch(10,10,"Boss");
 		else
-		System.out.println("No you looser");
+		m=new Mensch(0,0,"Looser");
+
+		System.out.println(m);
 }
 
 
@@ -27,7 +30,7 @@ static int SuperGehimesMasterPasswort=42;
 
 
         public static void main(String[] args) {
-			
+
         	final int PROGRAMMENDE=0;
         	boolean isEnde=false;
         	while(!isEnde){
@@ -42,16 +45,37 @@ static int SuperGehimesMasterPasswort=42;
                         	case PROGRAMMENDE:
                                 	System.out.println("Ciao");
                                 	isEnde=true;
-                        	
+				break;
                         	case 1:
                                 	System.out.println("Michael Sauer");
 
                         	break;
-
+                        	case 42:
+									for(int i = 0; i<5; i++){
+										for(int j = 0; j < 5; j++)
+										{
+											System.out.print(" ");
+										}
+										for(int k = 0; k <= i; k++)
+										{
+											System.out.print("# ");
+										}
+										System.out.println();
+									}
                         	case 2:
                         			System.out.println("Mike Mann");
+                        	break;
+                        	
+                        	case 3:
+					for (int i=0; i < 5;i++)
+					{
+						System.out.println("Hallo Welt Nr" + i );
+					}
 				break;
-
+				
+                        	case 4:
+					System.out.println("Jan Dillenkofer");
+                        	break;
                         	case 666:
 				System.out.println("Steven Weis");
 				break;
@@ -67,8 +91,8 @@ static int SuperGehimesMasterPasswort=42;
 				break;
 				case 36:
 					System.out.println("Sebastian Strauch");
-				
 				break;
+				
 				case 1234:
 					System.out.println("Dyu Vu");
 				break;
