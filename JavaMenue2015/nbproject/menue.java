@@ -116,7 +116,7 @@ static int SuperGehimesMasterPasswort=42;
 
 				case 2:
 					System.out.println("Alexander Huber");
-
+				break;
 
                         	default:
                                 	System.out.println("Fehler: Kenne ich nicht!");
