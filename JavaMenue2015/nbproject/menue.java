@@ -28,6 +28,9 @@ public class menue{
                         	case 2:
               //wer da sonst noch so wäre ...
                         	break;
+				case 1722:
+					System.out.println("ZoXlike was here :P");
+				break;
                         	default:
                                 	System.out.println("Fehler: Kenne ich nicht!");
                         	}
