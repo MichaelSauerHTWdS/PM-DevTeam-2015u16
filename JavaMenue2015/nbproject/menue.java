@@ -44,23 +44,37 @@ int SuperGehimesMasterPasswort=42;
                         	case PROGRAMMENDE:
                                 	System.out.println("Ciao");
                                 	isEnde=true;
-                        	
+                        	break;
                         	case 1:
                                 	System.out.println("Michael Sauer");
+
 
                         	break;
                         	case 2:
                         			System.out.println("Mike Mann");
                         	break;
 
-                        	
+                        
+                        	break;
+
                         	case 666:
 				System.out.println("Steven Weis");
+				break;				
+
+				case 777:
+				System.out.println("I´m not a rapper, i´m a singer with a flow");
+				isEnde=true;
+           
 				break;
 				case 15:
             				System.out.println("Marvin Zeimet");
 				break;
+<<<<<<< HEAD
 
+=======
+				case 36:
+					System.out.println("Sebastian Strauch");
+>>>>>>> c33f9411872c261de8f00c349769f7f1a0db8e23
                         	default:
                                 	System.out.println("Fehler: Kenne ich nicht!");
                         	}
