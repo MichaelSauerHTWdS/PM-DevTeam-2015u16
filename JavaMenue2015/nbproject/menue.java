@@ -1,4 +1,4 @@
-import java.util.Scanner;
+﻿import java.util.Scanner;
 
 /*
  * Geruest für ein kleines Java-Menue um mit Git VCS zu lernen
@@ -26,6 +26,7 @@ static int SuperGehimesMasterPasswort=42;
 
 
         public static void main(String[] args) {
+			
         	final int PROGRAMMENDE=0;
         	boolean isEnde=false;
         	while(!isEnde){
@@ -34,7 +35,7 @@ static int SuperGehimesMasterPasswort=42;
                 	int wahl = scanner.nextInt();
 			if(wahl!=SuperGehimesMasterPasswort){
 				for(int i=0;i<-1;i++)
-					System.out.println("Access Denied");
+					DaBoss();
 			}
                 	switch (wahl) {
                         	case PROGRAMMENDE:
