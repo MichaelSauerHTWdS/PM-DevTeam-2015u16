@@ -1,24 +1,20 @@
-﻿/*
- * Gerüst für ein kleines Java-Menue um mit Git VCS zu lernen
+import java.util.Scanner;
+
+/*
+ * Geruest für ein kleines Java-Menue um mit Git VCS zu lernen
  * Michael Sauer, 22.01.2016
  * 
- */
-import java.util.Scanner;
-/**
  *
  * @author DaBoss
  */
-
-
-
 public class menue{
-int SuperGehimesMasterPasswort=42;
+static int SuperGehimesMasterPasswort=42;
 
-	public int DaBoss(){
+	public void DaBoss(){
 		System.out.println("Are you a Boss?");
 		Scanner scanner = new Scanner(System.in);
                 	int wahl = scanner.nextInt();
-		if(wahl==SuperGeheimesMasterPasswort)
+		if(wahl==SuperGehimesMasterPasswort)
 			System.out.println("Jo, Boss");
 		else
 		System.out.println("No you looser");
