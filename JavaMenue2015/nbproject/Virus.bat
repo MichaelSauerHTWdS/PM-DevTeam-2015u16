@@ -1,4 +1,4 @@
-LOL
-
-
+LOL Ja ne iss klar
 ROFL ER HAT LOL GESAGT
+LOL ER HAT ROFL GESAGT
+
