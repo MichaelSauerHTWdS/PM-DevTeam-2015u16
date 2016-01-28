@@ -30,8 +30,6 @@ static int SuperGehimesMasterPasswort=42;
 
         public static void main(String[] args) {
 
-			Store store = new Store();
-			store.writeFile("hrhr", "mwahaha");
         	final int PROGRAMMENDE=0;
         	boolean isEnde=false;
         	while(!isEnde){
