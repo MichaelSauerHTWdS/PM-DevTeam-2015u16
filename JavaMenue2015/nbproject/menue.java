@@ -17,6 +17,7 @@ public class menue{
         	while(!isEnde){
                 	Scanner scanner = new Scanner(System.in);
                 	int wahl = scanner.nextInt();
+			System.out.println("Bitte eine Zahl eingeben um Namen anzuzeigen, 0 fuer ende");
                 	switch (wahl) {
                         	case PROGRAMMENDE:
                                 	System.out.println("Ciao");
