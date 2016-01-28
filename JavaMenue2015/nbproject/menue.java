@@ -47,14 +47,24 @@ static int SuperGehimesMasterPasswort=42;
 
 
                         	break;
+                        	case 42:
+									for(int i = 0; i<5; i++){
+										for(int j = 0; j < 5; j++)
+										{
+											System.out.print(" ");
+										}
+										for(int k = 0; k <= i; k++)
+										{
+											System.out.print("# ");
+										}
+										System.out.println();
+									}
                         	case 2:
                         			System.out.println("Mike Mann");
                         	break;
-
-                        
                         	case 4:
 					System.out.println("Jan Dillenkofer");
-				break;
+                        	break;
 
                         	case 666:
 				System.out.println("Steven Weis");
@@ -72,7 +82,10 @@ static int SuperGehimesMasterPasswort=42;
 				case 36:
 					System.out.println("Sebastian Strauch");
 				break;
-
+				
+				case 1234:
+					System.out.println("Dyu Vu");
+				break;
                         	default:
                                 	System.out.println("Fehler: Kenne ich nicht!");
                         	}
