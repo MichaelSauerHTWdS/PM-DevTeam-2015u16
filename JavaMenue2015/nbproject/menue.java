@@ -9,6 +9,7 @@ import java.util.Scanner;
  * @author DaBoss
  */
 
+int SuperGehimesMasterPasswort=42;
 
 public class menue{
         public static void main(String[] args) {
@@ -17,18 +18,21 @@ public class menue{
         	while(!isEnde){
                 	Scanner scanner = new Scanner(System.in);
                 	int wahl = scanner.nextInt();
+			if(wahl!=SuperGehimesMasterPasswort){
+				for(int i=0;i<-1;i++)
+					System.out.println("Access Denied");
+			}
                 	switch (wahl) {
                         	case PROGRAMMENDE:
                                 	System.out.println("Ciao");
                                 	isEnde=true;
-                        	break;
+                        	
                         	case 1:
                                 	System.out.println("Michael Sauer");
-                        	break;
+                        	
                         	case 666:
 				System.out.println("Steven Weis");
-              //wer da sonst noch so wäre ...
-                        	break;
+            
                         	default:
                                 	System.out.println("Fehler: Kenne ich nicht!");
                         	}
