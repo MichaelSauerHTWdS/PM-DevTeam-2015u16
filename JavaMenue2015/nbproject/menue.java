@@ -8,17 +8,24 @@
  * @author DaBoss
  */
 public class menue{
+<<<<<<< HEAD
 	
 	private static int superGehimesMasterPasswort=42;
+=======
+static int SuperGeheimesMasterPasswort=42;
+>>>>>>> 3c8409cedb88f58e5936d16fccaea2dfef61d7f7
 
 	public void DaBoss(){
+		Mensch m;
 		System.out.println("Are you a Boss?");
 		Scanner scanner = new Scanner(System.in);
                 	int wahl = scanner.nextInt();
-		if(wahl==SuperGehimesMasterPasswort)
-			System.out.println("Jo, Boss");
+		if(wahl==SuperGeheimesMasterPasswort)
+			m=new Mensch(10,10,"Boss");
 		else
-		System.out.println("No you looser");
+		m=new Mensch(0,0,"Looser");
+
+		System.out.println(m);
 }
 
 	public void nichtDaBoss(
@@ -36,7 +43,10 @@ public class menue{
 
 
         public static void main(String[] args) {
-			
+
+			Store store = new Store();
+			store.writeFile("hrhr", "mwahaha");
+
         	final int PROGRAMMENDE=0;
         	boolean isEnde=false;
         	while(!isEnde){
@@ -51,22 +61,41 @@ public class menue{
                         	case PROGRAMMENDE:
                                 	System.out.println("Ciao");
                                 	isEnde=true;
-                        	
+				break;
                         	case 1:
                                 	System.out.println("Michael Sauer");
 
-
-                        	
+                        	break;
+                        	case 42:
+									for(int i = 0; i<5; i++){
+										for(int j = 0; j < 5; j++)
+										{
+											System.out.print(" ");
+										}
+										for(int k = 0; k <= i; k++)
+										{
+											System.out.print("# ");
+										}
+										System.out.println();
+									}
                         	case 2:
                         			System.out.println("Mike Mann");
+                        	break;
                         	
-
-                        
-                        	
+                        	case 3
+					for (int i=0; i < 5;i++)
+					{
+						System.out.println("Hallo Welt Nr" + i) ;
+					}
+				break;
+				
+                        	case 4:
+					System.out.println("Jan Dillenkofer");
+                        	break;
 
                         	case 666:
 				System.out.println("Steven Weis");
-							
+				break;
 
 				case 777:
 				System.out.println("I´m not a rapper, i´m a singer with a flow");
@@ -75,11 +104,19 @@ public class menue{
 				
 				case 15:
             				System.out.println("Marvin Zeimet");
-				
+				break;
 
 				case 36:
 					System.out.println("Sebastian Strauch");
+				break;
 				
+				case 1234:
+					System.out.println("Dyu Vu");
+				break;
+
+				case 2:
+					System.out.println("Alexander Huber");
+
 
                         	default:
                                 	System.out.println("Fehler: Kenne ich nicht!");
