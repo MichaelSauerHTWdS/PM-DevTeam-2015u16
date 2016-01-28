@@ -1,0 +1,40 @@
+/*
+ * Gerüst für ein kleines Java-Menue um mit Git VCS zu lernen
+ * Michael Sauer, 22.01.2016
+ * 
+ */
+import java.util.Scanner;
+/**
+ *
+ * @author Laurelle
+ */
+
+
+public class menue{
+        public static void main(String[] args) {
+            final int PROGRAMMENDE=0;
+            boolean isEnde=false;
+            while(!isEnde){
+                    Scanner scanner = new Scanner(System.in);
+                    System.out.println("Geben Sie einen Zahl zwischen 1 und 3 ein: ");
+                    int wahl = scanner.nextInt();
+                    switch (wahl) {
+                            case PROGRAMMENDE:
+                                    System.out.println("Ciao");
+                                    isEnde=true;
+                            break;
+                            case 1:
+                                    System.out.println("Michael Sauer");
+                            break;
+                            case 2:
+                                    System.out.println("Laurelle Toukam");
+                            break;        
+                            case 3:
+                                    System.out.println("Aubin Gomsu");         
+                            break;
+                            default:
+                                    System.out.println("Fehler: Kenne ich nicht!");
+                            }
+                    }
+        }
+	}

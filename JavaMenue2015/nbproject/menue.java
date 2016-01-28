@@ -8,19 +8,22 @@
  * @author DaBoss
  */
 public class menue{
-<<<<<<< HEAD
+
 	
 	private static int superGehimesMasterPasswort=42;
-=======
+
 static int SuperGeheimesMasterPasswort=42;
->>>>>>> 3c8409cedb88f58e5936d16fccaea2dfef61d7f7
+
+
+static int SuperGehimesMasterPasswort=42;
+
 
 	public void DaBoss(){
 		Mensch m;
 		System.out.println("Are you a Boss?");
 		Scanner scanner = new Scanner(System.in);
                 	int wahl = scanner.nextInt();
-		if(wahl==SuperGeheimesMasterPasswort)
+		if(wahl==SuperGehimesMasterPasswort)
 			m=new Mensch(10,10,"Boss");
 		else
 		m=new Mensch(0,0,"Looser");
@@ -43,6 +46,7 @@ static int SuperGeheimesMasterPasswort=42;
 
 
         public static void main(String[] args) {
+
 
 			Store store = new Store();
 			store.writeFile("hrhr", "mwahaha");
@@ -85,7 +89,7 @@ static int SuperGeheimesMasterPasswort=42;
                         	case 3
 					for (int i=0; i < 5;i++)
 					{
-						System.out.println("Hallo Welt Nr" + i) ;
+						"Hallo Welt Nr" + i ;
 					}
 				break;
 				
@@ -104,7 +108,7 @@ static int SuperGeheimesMasterPasswort=42;
 				
 				case 15:
             				System.out.println("Marvin Zeimet");
-				break;
+				
 
 				case 36:
 					System.out.println("Sebastian Strauch");
