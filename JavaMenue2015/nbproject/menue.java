@@ -26,7 +26,6 @@ static int SuperGehimesMasterPasswort=42;
 
 
         public static void main(String[] args) {
-			
         	final int PROGRAMMENDE=0;
         	boolean isEnde=false;
         	while(!isEnde){
@@ -41,18 +40,33 @@ static int SuperGehimesMasterPasswort=42;
                         	case PROGRAMMENDE:
                                 	System.out.println("Ciao");
                                 	isEnde=true;
-                        	
+				break;
                         	case 1:
                                 	System.out.println("Michael Sauer");
 
                         	break;
-
+                        	case 42:
+									for(int i = 0; i<5; i++){
+										for(int j = 0; j < 5; j++)
+										{
+											System.out.print(" ");
+										}
+										for(int k = 0; k <= i; k++)
+										{
+											System.out.print("# ");
+										}
+										System.out.println();
+									}
                         	case 2:
                         			System.out.println("Mike Mann");
+                        	break;
+                        	case 4:
+					System.out.println("Jan Dillenkofer");
+                        	break;
 
                         	case 666:
 				System.out.println("Steven Weis");
-							
+				break;
 
 				case 777:
 				System.out.println("I´m not a rapper, i´m a singer with a flow");
