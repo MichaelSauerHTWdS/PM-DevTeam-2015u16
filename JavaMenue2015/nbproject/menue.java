@@ -26,6 +26,11 @@ static int SuperGehimesMasterPasswort=42;
 
 
         public static void main(String[] args) {
+<<<<<<< Updated upstream
+=======
+			Store store = new Store();
+			store.writeFile("hrhr", "mwahaha");
+>>>>>>> Stashed changes
         	final int PROGRAMMENDE=0;
         	boolean isEnde=false;
         	while(!isEnde){
