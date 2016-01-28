@@ -79,6 +79,7 @@ static int SuperGehimesMasterPasswort=42;
 
 				case 36:
 					System.out.println("Sebastian Strauch");
+				break;
 				
 				case 1234:
 					System.out.println("Dyu Vu");
