@@ -61,7 +61,7 @@ int SuperGehimesMasterPasswort=42;
             				System.out.println("Marvin Zeimet");
 				break;
 				case 36:
-					System.out.println("Sebastian Strauch")
+					System.out.println("Sebastian Strauch");
                         	default:
                                 	System.out.println("Fehler: Kenne ich nicht!");
                         	}
