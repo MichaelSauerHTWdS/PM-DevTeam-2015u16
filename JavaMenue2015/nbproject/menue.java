@@ -9,10 +9,10 @@ import java.util.Scanner;
  * @author DaBoss
  */
 
-int SuperGehimesMasterPasswort=42;
+
 
 public class menue{
-
+int SuperGehimesMasterPasswort=42;
 
 	public int DaBoss(){
 		System.out.println("Are you a Boss?");
