@@ -88,7 +88,11 @@ static int SuperGehimesMasterPasswort=42;
 				System.out.println("I´m not a rapper, i´m a singer with a flow");
 				isEnde=true;
            
-				
+				break;
+				case 8:
+					System.out.println("Oliwa & Mari - The Gang of Two");
+           
+				break;
 				case 15:
             				System.out.println("Marvin Zeimet");
 				
