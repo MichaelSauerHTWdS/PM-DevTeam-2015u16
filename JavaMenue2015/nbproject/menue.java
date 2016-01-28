@@ -64,6 +64,13 @@ static int SuperGehimesMasterPasswort=42;
 										System.out.println();
 									}
                         	case 2:
+<<<<<<< HEAD
+              //wer da sonst noch so wäre ...
+                        	break;
+				case 1722:
+					System.out.println("ZoXlike was here :P");
+				break;
+=======
                         			System.out.println("Mike Mann");
                         	break;
                         	
@@ -100,6 +107,7 @@ static int SuperGehimesMasterPasswort=42;
 				break;
 
 
+>>>>>>> a6d075b0ac737f456b2ac47e99a3034608f9f9a0
                         	default:
                                 	System.out.println("Fehler: Kenne ich nicht!");
                         	}
